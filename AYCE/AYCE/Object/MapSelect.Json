@@ -1,0 +1,82 @@
+{
+  "Entity": {
+  "MapSelect1": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/MapSelect1.obj"
+        },
+        "Transform": {
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0
+          ],
+          "Scale": [
+            16,
+            9,
+            1
+          ]
+        }
+      },
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC"
+    },
+  "MapSelect2": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/MapSelect2.obj"
+        },
+        "Transform": {
+          "Position": [
+            0,
+            0,
+            -1000
+          ],
+          "Rotation": [
+            0,
+            0,
+            0
+          ],
+          "Scale": [
+            16,
+            9,
+            1
+          ]
+        }
+      },
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC"
+    },    
+  "MapSelect3": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/MapSelect3.obj"
+        },
+        "Transform": {
+          "Position": [
+            0,
+            0,
+            -1000
+          ],
+          "Rotation": [
+            0,
+            0,
+            0
+          ],
+          "Scale": [
+            16,
+            9,
+            1
+          ]
+        }
+      },
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC"
+    }
+  }
+}

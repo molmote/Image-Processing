@@ -1,0 +1,256 @@
+{
+  "Entity": {
+    "BigMenuBox": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ 1000, 1000, 1000 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/BigMenuBox.obj"
+        }
+      }
+    },
+    "OptionReturn": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ 0, 80, 0 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Back_text.obj"
+        }
+      }
+    },
+    "OptionSound": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ 0, 40, 0 ],
+          "Scale": [ 15, 15, 15 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Sound_text.obj"
+        }
+      }
+    },
+    "OptionResolution": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ 0, 0, 0 ],
+          "Scale": [ 13, 13, 13 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Resolution_text.obj"
+        }
+      }
+    },
+    "OptionQuit": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ 0, -40, 0 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/QuitGame_text.obj"
+        }
+      }
+    },
+    "OptionSelecter": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ 5, 80, 0 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/SelectionBox.obj"
+        }
+      }
+    },
+    "OptionSoundBar": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ 400, 400, 400 ],
+          "Scale": [ 15, 15, 15 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Sound_Bar.obj"
+        }
+      }
+    },
+    "OptionSoundBarReal": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ 400, 400, 400 ],
+          "Scale": [ 14, 14, 12 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Sound_Bar_Real.obj"
+        }
+      }
+    },
+    "OptionResolutionby_1920": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ 400, 400, 400 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/RS_1920-1080.obj"
+        }
+      }
+    },
+    "OptionResolutionby_1600": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ 400, 400, 400 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/RS_1600-900.obj"
+        }
+      }
+    },
+    "OptionResolutionby_1280": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ 400, 400, 400 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/RS_1280-720.obj"
+        }
+      }
+    },
+    "OptionResolutionby_800": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ 400, 400, 400 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/RS_800-600.obj"
+        }
+      }
+    },
+    "OptionFullScreenOff": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [400, 400, 400],
+          "Scale": [ 5, 5, 5 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/FullScreenOff.obj"
+        }
+      }
+    },
+    "OptionFullScreenOn": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -200, 0, 0 ],
+          "Scale": [ 5, 5, 5 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/FullScreenOn.obj"
+        }
+      }
+    },
+    "OptionzEnterApply": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -250, -130, 0 ],
+          "Scale": [ 5, 5, 5 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Enter_Apply.obj"
+        }
+      }
+    },
+    "Optionz1QuitRUSure": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -400, -400, -400 ],
+          "Scale": [ 5, 5, 5 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/QuitRUSure.obj"
+        }
+      }
+    },
+    "Optionz2Yes": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -430, -420, -400 ],
+          "Scale": [ 5, 5, 5 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Yes_text.obj"
+        }
+      }
+    },
+    "Optionz3No": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -370, -420, -400 ],
+          "Scale": [ 5, 5, 5 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/No_text.obj"
+        }
+      }
+    }
+  }
+}

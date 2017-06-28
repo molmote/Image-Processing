@@ -1,0 +1,30 @@
+{
+  "Entity": {
+  "HowToPlay": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/HowToPlay.obj"
+        },
+        "Transform": {
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0
+          ],
+          "Scale": [
+            16,
+            9,
+            1
+          ]
+        }
+      },
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG"
+    }
+  }
+}

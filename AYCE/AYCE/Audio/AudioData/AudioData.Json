@@ -1,0 +1,70 @@
+{
+	"Audio" : 
+	{
+		"GAME_BGM" : 
+		{
+			"File" : "Audio\\Game_BGM.ogg",
+			"Volume" : 0.0
+		},
+		"CREATE_SNOW_SFX" : 
+		{
+			"File" : "Audio\\CreateSnow.wav",
+			"Volume" : 1.0
+		},
+		"MENU_BGM" : 
+		{
+			"File" : "Audio\\Menu_BGM.ogg",
+			"Volume" : 0.2
+		},
+		"MENU_MOVE_SFX" : 
+		{
+			"File" : "Audio\\Menu_Move.wav",
+			"Volume" : 0.5
+		},
+		"OPTION_BGM" : 
+		{
+			"File" : "Audio\\Option_BGM.ogg",
+			"Volume" : 0.5
+		},
+		"WALKING_SFX" : 
+		{
+			"File" : "Audio\\Walking_Short.wav",
+			"Volume" : 0.5
+		},
+		"WINNING_BGM" : 
+		{
+			"File" : "Audio\\Winning_Clap.wav",
+			"Volume" : 0.5
+		},
+        "CREDIT_BGM" : 
+		{
+			"File" : "Audio\\Credit_BGM.wav",
+			"Volume" : 0.5
+		},
+        "SHOOT_SFX" : 
+		{
+			"File" : "Audio\\Shoot.wav",
+			"Volume" : 1.0
+		},
+        "COLLISION_SFX" : 
+		{
+			"File" : "Audio\\Collision.wav",
+			"Volume" : 1.0
+		},
+        "WIND_SFX" : 
+		{
+			"File" : "Audio\\Wind.wav",
+			"Volume" : 1.0
+		},
+        "WINNING_SFX" : 
+		{
+			"File" : "Audio\\Winning_Fire.wav",
+			"Volume" : 1.0
+		},
+        "FALL_SFX" : 
+		{
+			"File" : "Audio\\Fall.wav",
+			"Volume" : 1.0
+		}
+	}
+}

@@ -1,0 +1,18 @@
+# Cube.obj - sample hand-created Wavefront OBJ file
+v 0 0 0
+v 0 0 1
+v 0 1 0
+v 0 1 1
+v 1 0 0
+v 1 0 1
+v 1 1 0
+v 1 1 1
+
+f 1 6 2
+f 1 5 6
+f 5 8 6
+f 5 7 8
+f 8 7 3
+f 8 3 4
+f 1 2 4
+f 1 4 3

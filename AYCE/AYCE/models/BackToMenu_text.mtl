@@ -1,0 +1,12 @@
+newmtl BackToMenu_text
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ns 10.0000
+d 1.0000
+Tr 0.0000
+Ks 0.0000 0.0000 0.0000
+Ke 0.0000 0.0000 0.0000
+map_Kd BackToMenu_text.jpg

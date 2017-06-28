@@ -1,0 +1,56 @@
+{
+  "Entity": {
+  "DigipenLogo": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/DpLogo.obj"
+        },
+        "Transform": {
+          "Position": [
+            0,
+            0,
+            0
+          ],
+          "Rotation": [
+            0,
+            0,
+            0
+          ],
+          "Scale": [
+            40,
+            22,
+            1
+          ]
+        }
+      },
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC"
+    },    
+  "MooLogo": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/MooLogo.obj"
+        },
+        "Transform": {
+          "Position": [
+            0,
+            0,
+            -1000
+          ],
+          "Rotation": [
+            0,
+            0,
+            0
+          ],
+          "Scale": [
+            40,
+            22,
+            1
+          ]
+        }
+      },
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC"
+    }
+  }            
+}

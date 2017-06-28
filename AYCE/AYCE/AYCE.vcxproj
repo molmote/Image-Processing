@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{847BDBAE-0CAE-44E0-B965-5C33830CF9AC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AYCE</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>Core</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(SolutionDir)lib;$(IncludePath);$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)inc;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(IncludePath);$(LibraryPath)</LibraryPath>
+    <TargetName>Alaska Roll</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_SCL_SECURE_NO_WARNINGS;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)inc\gl3w;$(SolutionDir)inc\glew;$(SolutionDir)inc\glm;$(SolutionDir)inc\assimp-3.0.1270\include;$(SolutionDir)inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>precompiled.h</PrecompiledHeaderFile>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <AdditionalDependencies>SOIL.lib;XInput.lib;user32.lib;glew32.lib;fmodex_vc.lib;glfw3.lib;opengl32.lib;assimp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRT</IgnoreSpecificDefaultLibraries>
+      <NoEntryPoint>
+      </NoEntryPoint>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmodex_vc.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Custom</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)inc\gl3w;$(SolutionDir)inc\glew;$(SolutionDir)inc\glm;$(SolutionDir)inc\assimp-3.0.1270\include;$(SolutionDir)inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>precompiled.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SOIL.lib;XInput.lib;user32.lib;glew32.lib;fmodex_vc.lib;glfw3.lib;opengl32.lib;assimp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Application.cpp" />
+    <ClCompile Include="source\AudioSystem.cpp" />
+    <ClCompile Include="source\Body.cpp" />
+    <ClCompile Include="source\Camera.cpp" />
+    <ClCompile Include="source\CharacterHP.cpp" />
+    <ClCompile Include="source\CharacterMove.cpp" />
+    <ClCompile Include="source\Collision.cpp" />
+    <ClCompile Include="source\Component.cpp" />
+    <ClCompile Include="source\Controller.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\Credits.cpp" />
+    <ClCompile Include="source\Entity.cpp" />
+    <ClCompile Include="source\Factory.cpp" />
+    <ClCompile Include="source\EntitySystem.cpp" />
+    <ClCompile Include="source\Game.cpp" />
+    <ClCompile Include="source\GBuffer.cpp" />
+    <ClCompile Include="source\Geometry.cpp" />
+    <ClCompile Include="source\GraphicsRenderer.cpp" />
+    <ClCompile Include="source\Howtoplay.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\imgui.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="source\ImguiManager.cpp" />
+    <ClCompile Include="source\imgui_demo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="source\imgui_draw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="source\InputSystem.cpp" />
+    <ClCompile Include="source\ItemUsedComponent.cpp" />
+    <ClCompile Include="source\jsoncpp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="source\LevelEditor.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\Logo.cpp" />
+    <ClCompile Include="source\MapSelect.cpp" />
+    <ClCompile Include="source\LightNode.cpp" />
+    <ClCompile Include="source\log.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\Material.cpp" />
+    <ClCompile Include="source\Menu.cpp" />
+    <ClCompile Include="source\Mesh.cpp" />
+    <ClCompile Include="source\MeshComponent.cpp" />
+    <ClCompile Include="source\Model.cpp" />
+    <ClCompile Include="source\ModelNode.cpp" />
+    <ClCompile Include="source\GameLogic.cpp" />
+    <ClCompile Include="source\Option.cpp" />
+    <ClCompile Include="source\Particle.cpp" />
+    <ClCompile Include="source\PauseState.cpp" />
+    <ClCompile Include="source\Physics.cpp" />
+    <ClCompile Include="source\ResouceManager.cpp" />
+    <ClCompile Include="source\RigidBodyComponent.cpp" />
+    <ClCompile Include="source\SceneNode.cpp" />
+    <ClCompile Include="source\Shader.cpp" />
+    <ClCompile Include="source\ShaderManager.cpp" />
+    <ClCompile Include="source\ShaderProgram.cpp" />
+    <ClCompile Include="source\SnowballMove.cpp" />
+    <ClCompile Include="source\HoleComponent.cpp" />
+    <ClCompile Include="source\StateSystem.cpp" />
+    <ClCompile Include="source\TransformComponent.cpp" />
+    <ClCompile Include="source\Utilities.cpp" />
+    <ClCompile Include="source\WinState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="source\Application.h" />
+    <ClInclude Include="source\AudioSystem.h" />
+    <ClInclude Include="source\BaseShapeRenderer.h" />
+    <ClInclude Include="source\Body.h" />
+    <ClInclude Include="source\Camera.h" />
+    <ClInclude Include="source\CharacterHP.h" />
+    <ClInclude Include="source\CharacterMove.h" />
+    <ClInclude Include="source\Collision.h" />
+    <ClInclude Include="source\Component.h" />
+    <ClInclude Include="source\Controller.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="source\Credits.h" />
+    <ClInclude Include="source\Entity.h" />
+    <ClInclude Include="source\Factory.h" />
+    <ClInclude Include="source\EntityMessage.h" />
+    <ClInclude Include="source\EntitySystem.h" />
+    <ClInclude Include="source\flagset.h" />
+    <ClInclude Include="source\Game.h" />
+    <ClInclude Include="source\GBuffer.h" />
+    <ClInclude Include="source\Geometry.h" />
+    <ClInclude Include="source\GraphicsRenderer.h" />
+    <ClInclude Include="source\HoleComponent.h" />
+    <ClInclude Include="source\Howtoplay.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="source\imconfig.h" />
+    <ClInclude Include="source\imgui.h" />
+    <ClInclude Include="source\imgui_internal.h" />
+    <ClInclude Include="source\InputSystem.h" />
+    <ClInclude Include="source\ItemUsedComponent.h" />
+    <ClInclude Include="source\json-forwards.h" />
+    <ClInclude Include="source\json.h" />
+    <ClInclude Include="source\LevelEditor.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="source\Logo.h" />
+    <ClInclude Include="source\MapSelect.h" />
+    <ClInclude Include="source\LightNode.h" />
+    <ClInclude Include="source\log.h" />
+    <ClInclude Include="source\Material.h" />
+    <ClInclude Include="source\math.h" />
+    <ClInclude Include="source\Menu.h" />
+    <ClInclude Include="source\Mesh.h" />
+    <ClInclude Include="source\MeshComponent.h" />
+    <ClInclude Include="source\Model.h" />
+    <ClInclude Include="source\ModelNode.h" />
+    <ClInclude Include="source\GameLogic.h" />
+    <ClInclude Include="source\Option.h" />
+    <ClInclude Include="source\Particle.h" />
+    <ClInclude Include="source\PauseState.h" />
+    <ClInclude Include="source\Physics.h" />
+    <ClInclude Include="source\precompiled.h" />
+    <ClInclude Include="source\ResouceManager.h" />
+    <ClInclude Include="source\RigidBodyComponent.h" />
+    <ClInclude Include="source\SceneNode.h" />
+    <ClInclude Include="source\Shader.h" />
+    <ClInclude Include="source\ShaderManager.h" />
+    <ClInclude Include="source\ShaderProgram.h" />
+    <ClInclude Include="source\SnowballMove.h" />
+    <ClInclude Include="source\State.h" />
+    <ClInclude Include="source\StateSystem.h" />
+    <ClInclude Include="source\stb_rect_pack.h" />
+    <ClInclude Include="source\stb_textedit.h" />
+    <ClInclude Include="source\stb_truetype.h" />
+    <ClInclude Include="source\System.h" />
+    <ClInclude Include="source\SystemMessage.h" />
+    <ClInclude Include="source\TransformComponent.h" />
+    <ClInclude Include="source\Utilities.h" />
+    <ClInclude Include="source\WinState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Object\Credits.Json" />
+    <None Include="Object\Howtoplay.Json" />
+    <None Include="Object\Level1.Json" />
+    <None Include="Object\Level2.Json" />
+    <None Include="Object\Level3.Json" />
+    <None Include="Object\MapSelect.Json" />
+    <None Include="Object\Menu.Json" />
+    <None Include="Object\Option.Json" />
+    <None Include="Object\Pause.Json" />
+    <None Include="Object\WinState.Json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Core.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Object\AlaskaRoll.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

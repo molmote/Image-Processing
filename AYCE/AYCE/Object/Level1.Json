@@ -1,0 +1,556 @@
+{
+  "Entity": {
+  "Skybox": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/Skybox.obj"
+        },
+        "Transform": {
+          "Position": [
+            0,
+            300,
+            -800
+          ],
+          "Rotation": [
+            0,
+            0,
+            3.14
+          ],
+          "Scale": [
+            120,
+            120,
+            120
+          ]
+        }
+      },
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC"
+    },
+  "Water": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/Water.obj"
+        },
+        "Transform": {
+          "Position": [
+            0,
+            -180,
+            0
+          ],
+          "Rotation": [
+            1.570795,
+            0,
+            0
+          ],
+          "Scale": [
+            100,
+            80,
+            1
+          ]
+        }
+      },
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC"
+    },
+    "Level1Plane": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/Ground1.obj"
+        },
+        "Transform": {
+          "Position" : 
+					[
+						0,
+						-240,
+						0
+					],
+					"Rotation" : 
+					[
+						0,
+						0,
+						0
+					],
+					"Scale" : 
+					[
+						25,
+						25,
+						25
+					]
+          
+        }
+      },
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC"
+    },
+    "Map1": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/Wall.obj"
+        },
+        "RigidBody": {
+          "AabbMax": [
+            20,
+            20,
+            260
+          ],
+          "AabbMin": [
+            -20,
+            -20,
+            -260
+          ],
+          "Acceleration": [
+            0,
+            0,
+            0
+          ],
+          "Direction": [
+            0,
+            0,
+            0
+          ],
+          "Friction": 0,
+          "ID": 0,
+          "IsActive": false,
+          "Knockback": false,
+          "Mass": 1,
+          "Shape": "",
+          "Velocity": [
+            0,
+            0,
+            0
+          ]
+        },
+        "Transform": {
+          "Position": [
+            260,
+            0.5,
+            20
+          ],
+          "Rotation": [
+            0,
+            -1.570795,
+            0
+          ],
+          "Scale": [
+            24,
+            18,
+            18
+          ]
+        }
+      },
+      "Entity Type": "E_MAP1",
+      "List Type": "E_DYNAMIC"
+    },
+    "Map2": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/Wall.obj"
+        },
+        "RigidBody": {
+          "AabbMax": [
+            20,
+            20,
+            260
+          ],
+          "AabbMin": [
+            -20,
+            -20,
+            -260
+          ],
+          "Acceleration": [
+            0,
+            0,
+            0
+          ],
+          "Direction": [
+            0,
+            0,
+            0
+          ],
+          "Friction": 0,
+          "ID": 0,
+          "IsActive": false,
+          "Knockback": false,
+          "Mass": 1,
+          "Shape": "",
+          "Velocity": [
+            0,
+            0,
+            0
+          ]
+        },
+        "Transform": {
+          "Position": [
+            -260,
+            0.5,
+            -20
+          ],
+          "Rotation": [
+            0,
+            1.570795,
+            0
+          ],
+          "Scale": [
+            24,
+            18,
+            18
+          ]
+        }
+      },
+      "Entity Type": "E_MAP1",
+      "List Type": "E_DYNAMIC"
+    },
+    "Map3": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/Wall.obj"
+        },
+        "RigidBody": {
+          "AabbMax": [
+            260,
+            20,
+            20
+          ],
+          "AabbMin": [
+            -260,
+            -20,
+            -20
+          ],
+          "Acceleration": [
+            0,
+            0,
+            0
+          ],
+          "Direction": [
+            0,
+            0,
+            0
+          ],
+          "Friction": 0,
+          "ID": 0,
+          "IsActive": false,
+          "Knockback": false,
+          "Mass": 1,
+          "Shape": "",
+          "Velocity": [
+            0,
+            0,
+            0
+          ]
+        },
+        "Transform": {
+          "Position": [
+            -20,
+            0.5,
+            260
+          ],
+          "Rotation": [
+            0,
+            3.14,
+            0
+          ],
+          "Scale": [
+            24,
+            18,
+            18
+          ]
+        }
+      },
+      "Entity Type": "E_MAP1",
+      "List Type": "E_DYNAMIC"
+    },
+    "Map4": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/Wall.obj"
+        },
+        "RigidBody": {
+          "AabbMax": [
+            260,
+            20,
+            20
+          ],
+          "AabbMin": [
+            -260,
+            -20,
+            -20
+          ],
+          "Acceleration": [
+            0,
+            0,
+            0
+          ],
+          "Direction": [
+            0,
+            0,
+            0
+          ],
+          "Friction": 0,
+          "ID": 0,
+          "IsActive": false,
+          "Knockback": false,
+          "Mass": 1,
+          "Shape": "",
+          "Velocity": [
+            0,
+            0,
+            0
+          ]
+        },
+        "Transform": {
+          "Position": [
+            20,
+            0.5,
+            -260
+          ],
+          "Rotation": [
+            0,
+            0,
+            0
+          ],
+          "Scale": [
+            24,
+            18,
+            18
+          ]
+        }
+      },
+      "Entity Type": "E_MAP1",
+      "List Type": "E_DYNAMIC"
+    },
+    "Player1": {
+      "Component": {
+        "CharacterHP": {
+          "m_HP": 100
+        },
+        "CharacterMove": {
+          "Speed": 80
+        },
+        "MeshComponent": {
+          "Mesh": "models/character1.obj"
+        },
+        "RigidBody": {
+          "AabbMax": [
+            8,
+            8,
+            8
+          ],
+          "AabbMin": [
+            -8,
+            -8,
+            -8
+          ],
+          "Acceleration": [
+            0,
+            0,
+            0
+          ],
+          "Direction": [
+            0,
+            0,
+            1
+          ],
+          "Friction": 0,
+          "ID": 1,
+          "IsActive": false,
+          "Knockback": false,
+          "Mass": 1,
+          "Shape": "",
+          "Velocity": [
+            0,
+            0,
+            0
+          ]
+        },
+        "Transform": {
+          "Position": [
+            -72,
+            5,
+            38
+          ],
+          "Rotation": [
+            0,
+            0,
+            0
+          ],
+          "Scale": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "Entity Type": "E_PLAYER1",
+      "List Type": "E_DYNAMIC"
+    },
+    "Player1HP": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/HP_Bar.obj"
+        },
+        "Transform": {
+          "Position": [
+            -110,
+            170,
+            150
+          ],
+          "Rotation": [
+            0,
+            0,
+            0
+          ],
+          "Scale": [
+            4,
+            5,
+            5
+          ]
+        }
+      },
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC"
+    },
+    "Player1HP_Bar": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/HP_Bar_Real.obj"
+        },
+        "Transform": {
+          "Position": [
+            -160,
+            170,
+            150
+          ],
+          "Rotation": [
+            0,
+            0,
+            0
+          ],
+          "Scale": [
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC"
+    },
+    "Player2": {
+      "Component": {
+        "CharacterHP": {
+          "m_HP": 100
+        },
+        "CharacterMove": {
+          "Speed": 80
+        },
+        "MeshComponent": {
+          "Mesh": "models/character2.obj"
+        },
+        "RigidBody": {
+          "AabbMax": [
+            8,
+            8,
+            8
+          ],
+          "AabbMin": [
+            -8,
+            -8,
+            -8
+          ],
+          "Acceleration": [
+            0,
+            0,
+            0
+          ],
+          "Direction": [
+            0,
+            0,
+            1
+          ],
+          "Friction": 0,
+          "ID": 2,
+          "IsActive": false,
+          "Knockback": false,
+          "Mass": 1,
+          "Shape": "",
+          "Velocity": [
+            0,
+            0,
+            0
+          ]
+        },
+        "Transform": {
+          "Position": [
+            57,
+            5,
+            36
+          ],
+          "Rotation": [
+            0,
+            0,
+            0
+          ],
+          "Scale": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "Entity Type": "E_PLAYER2",
+      "List Type": "E_DYNAMIC"
+    },
+    "Player2HP": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/HP_Bar.obj"
+        },
+        "Transform": {
+          "Position": [
+            120,
+            170,
+            150
+          ],
+          "Rotation": [
+            0,
+            0,
+            0
+          ],
+          "Scale": [
+            4,
+            5,
+            5
+          ]
+        }
+      },
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC"
+    },
+    "Player2HP_Bar": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/HP_Bar_Real.obj"
+        },
+        "Transform": {
+          "Position": [
+            70,
+            170,
+            150
+          ],
+          "Rotation": [
+            0,
+            0,
+            0
+          ],
+          "Scale": [
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC"
+    }
+  }
+}

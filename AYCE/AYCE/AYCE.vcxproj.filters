@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{c480c20c-a29c-4762-8ecd-38989286eb83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\InputSystem">
+      <UniqueIdentifier>{1b9561b8-c1bd-4ea1-863c-d2387301adfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\AudioSystem">
+      <UniqueIdentifier>{6d525951-784b-4649-868b-56c6f15b97c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\EntitySystem">
+      <UniqueIdentifier>{c4a7e0f6-f849-4680-bc68-16eface719b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\StateSystem">
+      <UniqueIdentifier>{4fdd955e-eb33-4428-a644-24a75a84df87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{0ce9a696-f077-4337-ab4c-be4c3a0c4ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Base">
+      <UniqueIdentifier>{b6507629-d9a0-4342-8d11-9e5f8985a002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\EntitySystem\Entity">
+      <UniqueIdentifier>{9f8bd660-db47-42a8-9e2b-501e95c1943f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{f3daf9f5-7faf-4b19-b7af-9aeff6477b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{f14523c9-d062-4257-853d-64fbb20cd1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\physicsSystem">
+      <UniqueIdentifier>{1307aec0-9811-4d1c-a118-004874ad41ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{893feceb-1271-4297-b96d-267007ae1bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Base">
+      <UniqueIdentifier>{2989461b-c920-43f7-b499-393db55d5dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Body">
+      <UniqueIdentifier>{32a1e60c-243e-42f5-b074-81cac6cdaf46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Material">
+      <UniqueIdentifier>{6cd4239c-dab0-4fce-8017-5b28279cdfab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\GraphicRenderer">
+      <UniqueIdentifier>{228c3fcb-04ed-45be-a2a9-f29c376c8fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\ImguiManager">
+      <UniqueIdentifier>{02a72f9e-25fb-41a6-af7c-eb76a5be13b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\GameLogic">
+      <UniqueIdentifier>{ac63d85e-98ca-4609-a556-89cbb55ddf4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\JsonFiles">
+      <UniqueIdentifier>{b026c6a9-4d84-4d71-9e78-90febdb65028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{6b53aaae-7ecb-441f-930c-c0f95d11503b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Particle">
+      <UniqueIdentifier>{5d57e99f-634b-462e-9bae-81c179a7a848}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\InputSystem.cpp">
+      <Filter>System\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AudioSystem.cpp">
+      <Filter>System\AudioSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EntitySystem.cpp">
+      <Filter>System\EntitySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\StateSystem.cpp">
+      <Filter>System\StateSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entity.cpp">
+      <Filter>System\EntitySystem\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Component.cpp">
+      <Filter>Component\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TransformComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\jsoncpp.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Factory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Geometry.cpp">
+      <Filter>System\physicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Physics.cpp">
+      <Filter>System\physicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Collision.cpp">
+      <Filter>System\physicsSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MeshComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Material.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PauseState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RigidBodyComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GraphicsRenderer.cpp">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GBuffer.cpp">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Camera.cpp">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LightNode.cpp">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mesh.cpp">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModelNode.cpp">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneNode.cpp">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Shader.cpp">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ShaderManager.cpp">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ShaderProgram.cpp">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui.cpp">
+      <Filter>System\ImguiManager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui_demo.cpp">
+      <Filter>System\ImguiManager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\imgui_draw.cpp">
+      <Filter>System\ImguiManager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ImguiManager.cpp">
+      <Filter>System\ImguiManager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterMove.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameLogic.cpp">
+      <Filter>System\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SnowballMove.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Option.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LevelEditor.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Credits.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Body.cpp">
+      <Filter>Component\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Howtoplay.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CharacterHP.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="source\log.cpp" />
+    <ClCompile Include="source\Particle.cpp">
+      <Filter>System\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utilities.cpp" />
+    <ClCompile Include="source\ItemUsedComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HoleComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Model.cpp" />
+    <ClCompile Include="source\ResouceManager.cpp" />
+    <ClCompile Include="source\MapSelect.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Logo.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WinState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Controller.cpp">
+      <Filter>System\InputSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AudioSystem.h">
+      <Filter>System\AudioSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Component.h">
+      <Filter>Component\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EntitySystem.h">
+      <Filter>System\EntitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="source\InputSystem.h">
+      <Filter>System\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="source\StateSystem.h">
+      <Filter>System\StateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="source\State.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Entity.h">
+      <Filter>System\EntitySystem\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TransformComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="source\System.h">
+      <Filter>System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EntityMessage.h" />
+    <ClInclude Include="source\json.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="source\json-forwards.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Factory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Geometry.h">
+      <Filter>System\physicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Physics.h">
+      <Filter>System\physicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="source\precompiled.h" />
+    <ClInclude Include="source\stb_rect_pack.h" />
+    <ClInclude Include="source\stb_textedit.h" />
+    <ClInclude Include="source\stb_truetype.h" />
+    <ClInclude Include="source\imconfig.h" />
+    <ClInclude Include="source\math.h" />
+    <ClInclude Include="source\Collision.h">
+      <Filter>System\physicsSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MeshComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="source\flagset.h" />
+    <ClInclude Include="source\SystemMessage.h">
+      <Filter>System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Material.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PauseState.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RigidBodyComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BaseShapeRenderer.h">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GraphicsRenderer.h">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GBuffer.h">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Camera.h">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LightNode.h">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Mesh.h">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModelNode.h">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SceneNode.h">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Shader.h">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ShaderManager.h">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ShaderProgram.h">
+      <Filter>System\GraphicRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui.h">
+      <Filter>System\ImguiManager</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imgui_internal.h">
+      <Filter>System\ImguiManager</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterMove.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameLogic.h">
+      <Filter>System\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SnowballMove.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Menu.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Option.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LevelEditor.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Credits.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Body.h">
+      <Filter>Component\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Howtoplay.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CharacterHP.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="source\log.h" />
+    <ClInclude Include="source\Particle.h">
+      <Filter>System\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utilities.h" />
+    <ClInclude Include="source\ItemUsedComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="source\HoleComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Model.h" />
+    <ClInclude Include="source\ResouceManager.h" />
+    <ClInclude Include="source\MapSelect.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Logo.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WinState.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Controller.h">
+      <Filter>System\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Object\Credits.Json">
+      <Filter>Json\JsonFiles</Filter>
+    </None>
+    <None Include="Object\Level1.Json">
+      <Filter>Json\JsonFiles</Filter>
+    </None>
+    <None Include="Object\Menu.Json">
+      <Filter>Json\JsonFiles</Filter>
+    </None>
+    <None Include="Object\Option.Json">
+      <Filter>Json\JsonFiles</Filter>
+    </None>
+    <None Include="Object\Pause.Json">
+      <Filter>Json\JsonFiles</Filter>
+    </None>
+    <None Include="Object\Howtoplay.Json">
+      <Filter>Json\JsonFiles</Filter>
+    </None>
+    <None Include="Object\Level2.Json">
+      <Filter>Json\JsonFiles</Filter>
+    </None>
+    <None Include="Object\Level3.Json">
+      <Filter>Json\JsonFiles</Filter>
+    </None>
+    <None Include="Object\MapSelect.Json">
+      <Filter>Json\JsonFiles</Filter>
+    </None>
+    <None Include="Object\WinState.Json">
+      <Filter>Json\JsonFiles</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Core.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Object\AlaskaRoll.ico" />
+  </ItemGroup>
+</Project>

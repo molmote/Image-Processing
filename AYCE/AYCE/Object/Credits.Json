@@ -1,0 +1,89 @@
+{
+  "Entity": {
+    "DigipenCredits": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ 0, 400, 0 ],
+          "Scale": [ 9, 7, 7 ],
+          "Rotation": [ 0, 0, 3.14 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Credits_1.obj"
+        }
+      }
+    },
+    "DigipenPresident": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ 0, 250, 0 ],
+          "Scale": [ 9, 7, 7 ],
+          "Rotation": [ 0, 0, 3.14 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Credits_4.obj"
+        }
+      }
+    },
+    "DigipenInstructor ": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ 0, 100, 0 ],
+          "Scale": [ 9, 7, 7 ],
+          "Rotation": [ 0, 0, 3.14 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Credits_2.obj"
+        }
+      }
+    },
+    "Developers": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ 0, -100, 0 ],
+          "Scale": [ 9, 7, 7 ],
+          "Rotation": [ 0, 0, 3.14 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Credits_3.obj"
+        }
+      }
+    },
+    "OpenGLCredit": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ 0, -250, 0 ],
+          "Scale": [ 3, 3, 3 ],
+          "Rotation": [ 0, 0, 3.14 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Credits_5.obj"
+        }
+      }
+    },
+    "MooCredit": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ 0, -400, 0 ],
+          "Scale": [ 5, 5, 5 ],
+          "Rotation": [ 0, 0, 3.14 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Credits_6.obj"
+        }
+      }
+    }
+  }
+}
+

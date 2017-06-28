@@ -1,0 +1,156 @@
+newmtl Terrain_Map_6:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+d 1.0000
+Tr 0.0000
+Ke 0.0000 0.0000 0.0000
+map_Kd Terrain_Map_2.jpg
+newmtl Terrain_Map_7:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+d 1.0000
+Tr 0.0000
+Ke 0.0000 0.0000 0.0000
+map_Kd Terrain_Map_2.jpg
+newmtl Terrain_Map_8:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+d 1.0000
+Tr 0.0000
+Ke 0.0000 0.0000 0.0000
+map_Kd Terrain_Map_2.jpg
+newmtl Terrain_Map_9:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+d 1.0000
+Tr 0.0000
+Ke 0.0000 0.0000 0.0000
+map_Kd Terrain_Map_2.jpg
+newmtl Terrain_Map_10:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+d 1.0000
+Tr 0.0000
+Ke 0.0000 0.0000 0.0000
+map_Kd Terrain_Map_2.jpg
+newmtl Terrain_Map_11:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+d 1.0000
+Tr 0.0000
+Ke 0.0000 0.0000 0.0000
+map_Kd Terrain_Map_2.jpg
+newmtl Terrain_Map_12:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+d 1.0000
+Tr 0.0000
+Ke 0.0000 0.0000 0.0000
+map_Kd Terrain_Map_2.jpg
+newmtl Terrain_Map_16:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+d 1.0000
+Tr 0.0000
+Ke 0.0000 0.0000 0.0000
+map_Kd Terrain_Map_2.jpg
+newmtl Terrain_Map_17:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+d 1.0000
+Tr 0.0000
+Ke 0.0000 0.0000 0.0000
+map_Kd Terrain_Map_2.jpg
+newmtl Terrain_Map_18:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+d 1.0000
+Tr 0.0000
+Ke 0.0000 0.0000 0.0000
+map_Kd Terrain_Map_2.jpg
+newmtl Terrain_Map_19:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+d 1.0000
+Tr 0.0000
+Ke 0.0000 0.0000 0.0000
+map_Kd Terrain_Map_2.jpg
+newmtl Terrain_Map_20:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+d 1.0000
+Tr 0.0000
+Ke 0.0000 0.0000 0.0000
+map_Kd Terrain_Map_2.jpg
+newmtl Terrain_Map_21:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+d 1.0000
+Tr 0.0000
+Ke 0.0000 0.0000 0.0000
+map_Kd Terrain_Map_2.jpg

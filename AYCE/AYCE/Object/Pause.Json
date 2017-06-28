@@ -1,0 +1,200 @@
+{
+  "Entity": {
+    "BigMenuBox": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -150, 0, 0 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/BigMenuBox.obj"
+        }
+      }
+    },
+    "PauseResume": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -150, 90, 0 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Resume_text.obj"
+        }
+      }
+    },
+    "Game_Restart": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -150, 60, 0 ],
+          "Scale": [ 13, 13, 13 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Game_Restart.obj"
+        }
+      }
+    },
+    "PauseOption": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -150, 30, 0 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Option_txt.obj"
+        }
+      }
+    },
+    "PauseBTG": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -150, 0, 0 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/BackToMenu_text.obj"
+        }
+      }
+    },
+    "PauseHTP": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -150, -30, 0 ],
+          "Scale": [ 10, 10, 10 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/HowToPlay_txt.obj"
+        }
+      }
+    },
+    "PauseCREDITS": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -150, -60, 0 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Credits_text.obj"
+        }
+      }
+    },
+    "PauseQuit": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -150, -90, 0 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/QuitGame_text.obj"
+        }
+      }
+    },
+    "PauseSelecter": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -140, 90, 0 ],
+          "Scale": [ 25, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/SelectionBox.obj"
+        }
+      }
+    },
+    "PauseHTP1Details": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ 700, 700, 700 ],
+          "Scale": [ 3, 3, 3 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/HowToPlay_P1Details.obj"
+        }
+      }
+    },
+    "PauseHTP2Details": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ 700, 700, 700 ],
+          "Scale": [ 3, 3, 3 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/HowToPlay_P2Details.obj"
+        }
+      }
+    },
+    "Optionz1QuitRUSure": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -400, -400, -400 ],
+          "Scale": [ 5, 5, 5 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/QuitRUSure.obj"
+        }
+      }
+    },
+    "Optionz2Yes": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -430, -420, -400 ],
+          "Scale": [ 5, 5, 5 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Yes_text.obj"
+        }
+      }
+    },
+    "Optionz3No": {
+      "Entity Type": "E_UI",
+      "List Type": "E_DEBUG",
+      "Component": {
+        "Transform": {
+          "Position": [ -370, -420, -400 ],
+          "Scale": [ 5, 5, 5 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/No_text.obj"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "Entity": {
+    "Skybox": {
+      "Component": {
+        "MeshComponent": {
+          "Mesh": "models/Skybox.obj"
+        },
+        "Transform": {
+          "Position": [
+            -200,
+            0,
+            -300
+          ],
+          "Rotation": [
+            -0.3,
+            0,
+            3.14
+          ],
+          "Scale": [
+            100,
+            100,
+            100
+          ]
+        }
+      },
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC"
+    },
+    "Menutower": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ 0, -100, 0 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Menutower.obj"
+        }
+      }
+    },
+    "MenuStart": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ 60, 65, 5 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Menu_Start.obj"
+        }
+      }
+    },
+    "MenuOption": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ 0, 55, -60 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 1.57, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Menu_Option.obj"
+        }
+      }
+    },
+    "MenuCredits": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ -60, 50, 5 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 3.14, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Menu_Credits.obj"
+        }
+      }
+    },
+    "MenuExit": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ 0, 45, 60 ],
+          "Scale": [ 20, 20, 20 ],
+          "Rotation": [ 0, 4.71, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Menu_Quit.obj"
+        }
+      }
+    },
+    "AlaskaRoll": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ -400, 200, 250 ],
+          "Scale": [ 40, 40, 40 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Alaska Roll.obj"
+        }
+      }
+    },
+    "Terrain": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ 0, -200, 50 ],
+          "Scale": [ 40, 40, 40 ],
+          "Rotation": [ -0.35, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Terrain.obj"
+        }
+      }
+    },
+    "Optionz1QuitRUSure": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ -400, -400, -400 ],
+          "Scale": [ 5, 5, 5 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/QuitRUSure.obj"
+        }
+      }
+    },
+    "Optionz2Yes": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ -430, -420, -400 ],
+          "Scale": [ 5, 5, 5 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/Yes_text.obj"
+        }
+      }
+    },
+    "Optionz3No": {
+      "Entity Type": "E_UI",
+      "List Type": "E_STATIC",
+      "Component": {
+        "Transform": {
+          "Position": [ -370, -420, -400 ],
+          "Scale": [ 5, 5, 5 ],
+          "Rotation": [ 0, 0, 0 ]
+        },
+        "MeshComponent": {
+          "Mesh": "models/No_text.obj"
+        }
+      }
+    }
+  } 
+}
